@@ -1,7 +1,7 @@
 import React from "react";
-import Board from './components/Board'
+import Board from './components/Board';
 
-import "./styles/root.scss"
+import "./styles/root.scss";
 
 const App = () => {
   return (
@@ -11,8 +11,8 @@ const App = () => {
     <Board/>
     
   </div>
-  )
-}
+  );
+};
 
 export default App;
   
