@@ -41,6 +41,8 @@ const App = () => {
     <h2>{ message }</h2>
     <Board board={board} handleSquareClick={handleSquareClick}/>
     
+    <button className="btn" type="button"> Start New Game
+    </button>
   </div>
   );
 };
